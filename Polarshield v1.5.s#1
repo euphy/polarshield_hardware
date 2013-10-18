@@ -19435,6 +19435,7 @@ Source: RS Component / Phycomp</description>
 <wire x1="20.32" y1="63.5" x2="20.32" y2="53.34" width="0.1524" layer="91"/>
 <pinref part="RX_LED" gate="G$1" pin="A"/>
 <wire x1="20.32" y1="53.34" x2="15.24" y2="53.34" width="0.1524" layer="91"/>
+<junction x="20.32" y="63.5"/>
 </segment>
 </net>
 <net name="D11-TFT" class="0">
@@ -20315,8 +20316,6 @@ Source: RS Component / Phycomp</description>
 <approved hash="115,1,61.0023,-100.525,SER1,,,,,"/>
 <approved hash="115,1,-20.32,-87.7612,EXT_PWR,,,,,"/>
 <approved hash="115,1,76.8773,-2.73473,JP2,,,,,"/>
-<approved hash="115,1,76.8773,-48.4547,JP7,,,,,"/>
-<approved hash="115,1,11.43,38.4217,POWER,,,,,"/>
 <approved hash="115,1,17.78,-101.989,S2,,,,,"/>
 <approved hash="115,1,-108.983,111.891,JP1,,,,,"/>
 <approved hash="115,1,-108.983,83.9512,JP3,,,,,"/>

@@ -18140,13 +18140,12 @@ Source: RS Component / Phycomp</description>
 <part name="RX_LED" library="led" deviceset="LED" device="CHIP-LED0805"/>
 <part name="RN6" library="resistor-dil" deviceset="4R-N" device="EXBS8V" value="1K"/>
 <part name="T_STP" library="led" deviceset="LED" device="CHIP-LED0805"/>
-<part name="R3" library="rcl" deviceset="R-EU_" device="R0805" value="100"/>
+<part name="R3" library="rcl" deviceset="R-EU_" device="R0805" value="1K"/>
 <part name="GND12" library="supply1" deviceset="GND" device=""/>
 <part name="P+15" library="supply1" deviceset="VCC" device=""/>
-<part name="R4" library="rcl" deviceset="R-EU_" device="R0805" value="100"/>
 <part name="Y_STP" library="led" deviceset="LED" device="CHIP-LED0805"/>
 <part name="GND10" library="supply1" deviceset="GND" device=""/>
-<part name="R6" library="rcl" deviceset="R-EU_" device="R0805" value="100"/>
+<part name="R6" library="rcl" deviceset="R-EU_" device="R0805" value="1k"/>
 <part name="X_STP" library="led" deviceset="LED" device="CHIP-LED0805"/>
 <part name="GND11" library="supply1" deviceset="GND" device=""/>
 </parts>
@@ -18344,12 +18343,11 @@ Source: RS Component / Phycomp</description>
 <instance part="RN6" gate="D" x="0" y="38.1" rot="R180"/>
 <instance part="RN6" gate="B" x="0" y="53.34" rot="R180"/>
 <instance part="RN6" gate="C" x="0" y="63.5" rot="R180"/>
-<instance part="RN6" gate="A" x="0" y="68.58" rot="R180"/>
+<instance part="RN6" gate="A" x="5.08" y="-55.88"/>
 <instance part="T_STP" gate="G$1" x="-5.08" y="-10.16" rot="R270"/>
 <instance part="R3" gate="G$1" x="5.08" y="-10.16"/>
 <instance part="GND12" gate="1" x="-15.24" y="-15.24"/>
 <instance part="P+15" gate="VCC" x="20.32" y="66.04"/>
-<instance part="R4" gate="G$1" x="5.08" y="-58.42"/>
 <instance part="Y_STP" gate="G$1" x="-5.08" y="-58.42" rot="R270"/>
 <instance part="GND10" gate="1" x="-12.7" y="-63.5"/>
 <instance part="R6" gate="G$1" x="167.64" y="43.18"/>
@@ -18689,8 +18687,9 @@ Source: RS Component / Phycomp</description>
 <wire x1="17.78" y1="-53.34" x2="10.16" y2="-53.34" width="0.1524" layer="91"/>
 <label x="12.7" y="-53.34" size="1.778" layer="95"/>
 <pinref part="U$7" gate="G$1" pin="STEP"/>
-<pinref part="R4" gate="G$1" pin="2"/>
-<wire x1="10.16" y1="-53.34" x2="10.16" y2="-58.42" width="0.1524" layer="91"/>
+<wire x1="10.16" y1="-53.34" x2="10.16" y2="-55.88" width="0.1524" layer="91"/>
+<pinref part="RN6" gate="A" pin="2"/>
+<junction x="10.16" y="-55.88"/>
 </segment>
 <segment>
 <wire x1="-43.18" y1="99.06" x2="-25.4" y2="99.06" width="0.1524" layer="91"/>
@@ -20281,9 +20280,10 @@ Source: RS Component / Phycomp</description>
 </net>
 <net name="N$18" class="0">
 <segment>
-<pinref part="R4" gate="G$1" pin="1"/>
 <pinref part="Y_STP" gate="G$1" pin="A"/>
-<wire x1="0" y1="-58.42" x2="-2.54" y2="-58.42" width="0.1524" layer="91"/>
+<wire x1="0" y1="-55.88" x2="-2.54" y2="-58.42" width="0.1524" layer="91"/>
+<pinref part="RN6" gate="A" pin="1"/>
+<junction x="0" y="-55.88"/>
 </segment>
 </net>
 <net name="N$19" class="0">

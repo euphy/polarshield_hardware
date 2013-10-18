@@ -18140,13 +18140,13 @@ Source: RS Component / Phycomp</description>
 <part name="RX_LED" library="led" deviceset="LED" device="CHIP-LED0805"/>
 <part name="RN6" library="resistor-dil" deviceset="4R-N" device="EXBS8V" value="1K"/>
 <part name="T_STP" library="led" deviceset="LED" device="CHIP-LED0805"/>
-<part name="R3" library="rcl" deviceset="R-EU_" device="R0805" value="1K"/>
+<part name="R3" library="rcl" deviceset="R-EU_" device="R0805" value="100"/>
 <part name="GND12" library="supply1" deviceset="GND" device=""/>
 <part name="P+15" library="supply1" deviceset="VCC" device=""/>
-<part name="R4" library="rcl" deviceset="R-EU_" device="R0805" value="1K"/>
+<part name="R4" library="rcl" deviceset="R-EU_" device="R0805" value="100"/>
 <part name="Y_STP" library="led" deviceset="LED" device="CHIP-LED0805"/>
 <part name="GND10" library="supply1" deviceset="GND" device=""/>
-<part name="R6" library="rcl" deviceset="R-EU_" device="R0805" value="1K"/>
+<part name="R6" library="rcl" deviceset="R-EU_" device="R0805" value="100"/>
 <part name="X_STP" library="led" deviceset="LED" device="CHIP-LED0805"/>
 <part name="GND11" library="supply1" deviceset="GND" device=""/>
 </parts>

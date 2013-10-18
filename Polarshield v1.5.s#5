@@ -18020,11 +18020,11 @@ Source: RS Component / Phycomp</description>
 <classes>
 <class number="0" name="default" width="0.4064" drill="0">
 </class>
-<class number="1" name="gnd12" width="1.524" drill="0">
+<class number="1" name="gnd12" width="1.4224" drill="0">
 </class>
-<class number="2" name="gnd5" width="1.524" drill="0">
+<class number="2" name="gnd5" width="1.4224" drill="0">
 </class>
-<class number="3" name="vmot" width="2.54" drill="0">
+<class number="3" name="vmot" width="1.4224" drill="0">
 </class>
 <class number="4" name="vcc" width="0.4064" drill="0">
 </class>
@@ -18137,6 +18137,8 @@ Source: RS Component / Phycomp</description>
 <part name="SJ8" library="SparkFun" deviceset="SOLDERJUMPER" device="TRACE"/>
 <part name="SJ9" library="SparkFun" deviceset="SOLDERJUMPER" device="NO"/>
 <part name="TFT" library="sandy" deviceset="TFT01-2.4" device=""/>
+<part name="POWER1" library="led" deviceset="LED" device="CHIP-LED0805"/>
+<part name="POWER2" library="led" deviceset="LED" device="CHIP-LED0805"/>
 </parts>
 <sheets>
 <sheet>
@@ -18328,6 +18330,8 @@ Source: RS Component / Phycomp</description>
 <instance part="SJ8" gate="1" x="162.56" y="63.5"/>
 <instance part="SJ9" gate="1" x="152.4" y="53.34"/>
 <instance part="TFT" gate="G$1" x="193.04" y="-12.7"/>
+<instance part="POWER1" gate="G$1" x="10.16" y="63.5" rot="R90"/>
+<instance part="POWER2" gate="G$1" x="10.16" y="53.34" rot="R90"/>
 </instances>
 <busses>
 </busses>
@@ -18521,7 +18525,7 @@ Source: RS Component / Phycomp</description>
 <pinref part="GND7" gate="1" pin="GND"/>
 </segment>
 </net>
-<net name="+12V" class="4">
+<net name="+12V" class="3">
 <segment>
 <wire x1="58.42" y1="-30.48" x2="58.42" y2="-38.1" width="0.1524" layer="91"/>
 <pinref part="P+17" gate="1" pin="+12V"/>
@@ -20067,7 +20071,7 @@ Source: RS Component / Phycomp</description>
 <pinref part="JP5" gate="G$1" pin="2"/>
 </segment>
 </net>
-<net name="N$6" class="0">
+<net name="N$6" class="3">
 <segment>
 <wire x1="228.6" y1="63.5" x2="220.98" y2="58.42" width="0.1524" layer="91"/>
 <wire x1="228.6" y1="63.5" x2="233.68" y2="48.26" width="0.1524" layer="91"/>
