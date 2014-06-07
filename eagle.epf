@@ -344,10 +344,10 @@ UsedLibrary="C:/Program Files (x86)/EAGLE-6.5.0/lbr/zilog.lbr"
 
 [Win_1]
 Type="Control Panel"
-Loc="204 125 803 524"
+Loc="461 307 1060 706"
 State=1
 Number=0
 
 [Desktop]
-Screen="1366 768"
+Screen="1920 1200"
 Window="Win_1"
