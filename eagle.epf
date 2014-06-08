@@ -343,6 +343,14 @@ UsedLibrary="C:/Program Files (x86)/EAGLE-6.5.0/lbr/zetex.lbr"
 UsedLibrary="C:/Program Files (x86)/EAGLE-6.5.0/lbr/zilog.lbr"
 
 [Win_1]
+Type="CAM Processor"
+Loc="287 445 1245 880"
+State=2
+Number=3
+File="Polarshield v2.0c.brd"
+Job="C:/Users/sandy_000/OneDrive/Documents/eagle/ElecFreaks/ElecFreaks_CAM_V1.0.cam"
+
+[Win_2]
 Type="Control Panel"
 Loc="461 307 1060 706"
 State=1
@@ -351,3 +359,4 @@ Number=0
 [Desktop]
 Screen="1920 1200"
 Window="Win_1"
+Window="Win_2"
