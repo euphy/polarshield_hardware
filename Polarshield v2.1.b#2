@@ -18,7 +18,7 @@
 <layer number="20" name="Dimension" color="15" fill="1" visible="yes" active="yes"/>
 <layer number="21" name="tPlace" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="22" name="bPlace" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="23" name="tOrigins" color="15" fill="1" visible="no" active="yes"/>
+<layer number="23" name="tOrigins" color="15" fill="1" visible="yes" active="yes"/>
 <layer number="24" name="bOrigins" color="15" fill="1" visible="no" active="yes"/>
 <layer number="25" name="tNames" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="26" name="bNames" color="7" fill="1" visible="yes" active="yes"/>
@@ -1484,6 +1484,27 @@ by exp-lbrs.ulp</description>
 <text x="-2.6162" y="1.8288" size="1.27" layer="25" ratio="10">&gt;NAME</text>
 <text x="-2.54" y="-3.175" size="1.27" layer="27">&gt;VALUE</text>
 </package>
+<package name="SMA">
+<description>&lt;b&gt;SMA&lt;/b&gt; CASE 403D-02&lt;p&gt;
+Source: http://www.onsemi.com/pub_link/Collateral/MBRA340T3-D.PDF</description>
+<wire x1="-2.25" y1="1.825" x2="2.25" y2="1.825" width="0.254" layer="21"/>
+<wire x1="2.25" y1="-1.825" x2="-2.25" y2="-1.825" width="0.254" layer="21"/>
+<wire x1="-2.25" y1="1.825" x2="-2.25" y2="1.25" width="0.254" layer="21"/>
+<wire x1="2.25" y1="1.25" x2="2.25" y2="-1.25" width="0.254" layer="51"/>
+<wire x1="-2.25" y1="-1.825" x2="-2.25" y2="-1.25" width="0.254" layer="21"/>
+<wire x1="2.25" y1="-1.825" x2="2.25" y2="-1.25" width="0.254" layer="21" curve="-1.904406"/>
+<wire x1="2.25" y1="1.825" x2="2.25" y2="1.25" width="0.254" layer="21"/>
+<wire x1="-2.25" y1="-1.25" x2="-2.25" y2="1.25" width="0.254" layer="51"/>
+<rectangle x1="2.38" y1="-0.825" x2="2.8" y2="0.8" layer="51"/>
+<rectangle x1="-2.8" y1="-0.8" x2="-2.38" y2="0.8" layer="51"/>
+<rectangle x1="-1.5" y1="-1.75" x2="-0.75" y2="1.75" layer="51"/>
+<rectangle x1="-1.5" y1="1.25" x2="-0.75" y2="1.75" layer="21"/>
+<rectangle x1="-1.5" y1="-1.75" x2="-0.75" y2="-1.25" layer="21"/>
+<smd name="A" x="2" y="0" dx="2" dy="2" layer="1"/>
+<smd name="C" x="-2" y="0" dx="2" dy="2" layer="1"/>
+<text x="-2.75" y="2" size="1.27" layer="25" ratio="10">&gt;NAME</text>
+<text x="-2.75" y="-3.5" size="1.27" layer="27" ratio="10">&gt;VALUE</text>
+</package>
 </packages>
 </library>
 <library name="SparkFun-Connectors">
@@ -1961,6 +1982,7 @@ design rules under a new name.</description>
 <element name="JP3" library="SparkFun-Connectors" package="1X02_NO_SILK" value="" x="83.82" y="53.34" smashed="yes">
 <attribute name="VALUE" x="82.55" y="50.165" size="1.27" layer="27"/>
 </element>
+<element name="D1" library="Polarshield v2.0e" package="SMA" value="MBRA340T3" x="8.382" y="24.13" smashed="yes"/>
 </elements>
 <signals>
 <signal name="GND" class="2" airwireshidden="yes">
@@ -2012,7 +2034,7 @@ design rules under a new name.</description>
 <contactref element="IC3" pad="9"/>
 <contactref element="IC3" pad="19"/>
 <contactref element="IC3" pad="1"/>
-<polygon width="0.4064" layer="1" spacing="0.8128" isolate="0.6096">
+<polygon width="0.4064" layer="1" spacing="0.8128" pour="hatch" isolate="0.6096">
 <vertex x="100.33" y="82.55"/>
 <vertex x="100.33" y="0"/>
 <vertex x="16.51" y="0"/>
@@ -2022,7 +2044,7 @@ design rules under a new name.</description>
 <vertex x="10.16" y="67.31"/>
 <vertex x="10.16" y="83.82"/>
 </polygon>
-<polygon width="0.4064" layer="16" spacing="0.8128" isolate="0.3048">
+<polygon width="0.4064" layer="16" spacing="0.8128" pour="hatch" isolate="0.3048">
 <vertex x="100.33" y="80.01"/>
 <vertex x="101.6" y="-3.81"/>
 <vertex x="16.51" y="-3.81"/>
@@ -2191,16 +2213,16 @@ design rules under a new name.</description>
 <wire x1="11.176" y1="54.102" x2="11.176" y2="55.864" width="0.8128" layer="1"/>
 <wire x1="11.176" y1="55.864" x2="11.16" y2="55.88" width="0.8128" layer="1"/>
 <polygon width="0.4064" layer="1" isolate="0.4064">
-<vertex x="-1.27" y="50.8"/>
-<vertex x="-1.27" y="-2.54"/>
-<vertex x="16.51" y="-2.54"/>
+<vertex x="1.27" y="50.8"/>
+<vertex x="1.27" y="1.27"/>
+<vertex x="16.51" y="1.27"/>
 <vertex x="16.51" y="50.8"/>
 </polygon>
 <polygon width="0.4064" layer="16" isolate="0.4064">
 <vertex x="-5.08" y="50.8"/>
 <vertex x="16.51" y="50.8"/>
 <vertex x="16.51" y="-3.81"/>
-<vertex x="-5.08" y="-3.81"/>
+<vertex x="-5.08" y="-1.27"/>
 </polygon>
 <via x="11.43" y="15.24" extent="1-16" drill="0.4064" shape="octagon"/>
 <via x="11.43" y="12.7" extent="1-16" drill="0.4064" shape="octagon"/>
@@ -3922,7 +3944,6 @@ design rules under a new name.</description>
 <wire x1="3.556" y1="23.13" x2="2.524" y2="23.13" width="0.6096" layer="1"/>
 <wire x1="2.524" y1="23.13" x2="1.27" y2="24.384" width="0.8128" layer="1"/>
 <wire x1="1.27" y1="24.384" x2="1.27" y2="33.02" width="0.8128" layer="1"/>
-<wire x1="3.556" y1="23.13" x2="5.182" y2="23.13" width="0.8128" layer="1"/>
 <wire x1="3.556" y1="23.13" x2="3.556" y2="18.166" width="0.8128" layer="1"/>
 <wire x1="3.556" y1="18.166" x2="3.3" y2="17.91" width="0.6096" layer="1"/>
 </signal>
