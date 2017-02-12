@@ -1,0 +1,86 @@
+Partlist exported from C:/Users/sandy_000/OneDrive/Documents/eagle/Polarshield/Polarshield v2.5.sch at 09/12/2016 22:08:11
+
+Part         Value               Device              Package               Description                           MF MPN OC_FARNELL OC_NEWARK PROD_ID    SF_ID    
+A-MOT1                           1X4-BIG             1X04-BIG              4-pin connector                                                                       
+A-MOT2                           M04SCREW            SCREWTERMINAL-3.5MM-4 Header 4                                                                              
+A_STP                            LEDCHIP-LED0805     CHIP-LED0805          LED                                                                                   
+B-MOT1                           1X4-BIG             1X04-BIG              4-pin connector                                                                       
+B-MOT2                           M04SCREW            SCREWTERMINAL-3.5MM-4 Header 4                                                                              
+B_STP                            LEDCHIP-LED0805     CHIP-LED0805          LED                                                                                   
+C-MOT1                           1X4-BIG             1X04-BIG              4-pin connector                                                                       
+C-MOT2                           M04SCREW            SCREWTERMINAL-3.5MM-4 Header 4                                                                              
+C1           100uF               CPOL-EU153CLV-0605  153CLV-0605           POLARIZED CAPACITOR, European symbol                                                  
+C3           100uF               CPOL-EU153CLV-0605  153CLV-0605           POLARIZED CAPACITOR, European symbol                                                  
+C4           100uF               CPOL-EU153CLV-0605  153CLV-0605           POLARIZED CAPACITOR, European symbol                                                  
+C5           3.3nF               C-EUC0805K          C0805K                CAPACITOR, European symbol                                                            
+C6           100nF               C-EUC0805           C0805                 CAPACITOR, European symbol                                                            
+C7           100nF               C-EUC0805K          C0805K                CAPACITOR, European symbol                                                            
+C8           10nF                C-EUC0805K          C0805K                CAPACITOR, European symbol                                                            
+C9           100nF               C-EUC0805K          C0805K                CAPACITOR, European symbol                                                            
+C10          100nF               C-EUC0805K          C0805K                CAPACITOR, European symbol                                                            
+C11          220uF               CPOL-EU153CLV-0807  153CLV-0807           POLARIZED CAPACITOR, European symbol                                                  
+C12          220uF               CPOL-EU153CLV-0807  153CLV-0807           POLARIZED CAPACITOR, European symbol                                                  
+C13          100nF               C-EUC0805           C0805                 CAPACITOR, European symbol                                                            
+C14          100nF               C-EUC0805           C0805                 CAPACITOR, European symbol                                                            
+CN1                              1X4-CLEANBIG        1X04-CLEANBIG         4-pin connector                                                                       
+CN2                              1X4-CLEANBIG        1X04-CLEANBIG         4-pin connector                                                                       
+CN3                              1X4-CLEANBIG        1X04-CLEANBIG         4-pin connector                                                                       
+CN4                              1X4-CLEANBIG        1X04-CLEANBIG         4-pin connector                                                                       
+C_STP                            LEDCHIP-LED0805     CHIP-LED0805          LED                                                                                   
+D2                               DIODE-DO214BA       DO214BA               DIODE                                                                                 
+D13          LED                 LEDCHIP-LED0805     CHIP-LED0805          LED                                                                                   
+IC1          MP2307              MP2307              SOIC8                                                                                                       
+IC2          74541PW             74541PW             TSSOP20               Octal BUFFER and LINE DRIVER, 3-state                                                 
+IC3          74541PW             74541PW             TSSOP20               Octal BUFFER and LINE DRIVER, 3-state                                                 
+IC4          74541PW             74541PW             TSSOP20               Octal BUFFER and LINE DRIVER, 3-state                                                 
+IC5          74541PW             74541PW             TSSOP20               Octal BUFFER and LINE DRIVER, 3-state                                                 
+J1           1X2-3.5MM           1X2-3.5MM           1X2-3.5MM             3.5mm Terminal block                                                                  
+JP1                              M021X02_NO_SILK     1X02_NO_SILK          Standard 2-pin 0.1" header. Use with                                                  
+JP2                              M031X03_NO_SILK     1X03_NO_SILK          Header 3                                                                              
+JP3                              M021X02_NO_SILK     1X02_NO_SILK          Standard 2-pin 0.1" header. Use with                                                  
+JP4                              M021X02_NO_SILK     1X02_NO_SILK          Standard 2-pin 0.1" header. Use with                                                  
+JP5                              M021X02_NO_SILK     1X02_NO_SILK          Standard 2-pin 0.1" header. Use with                                                  
+JP6                              M021X02_NO_SILK     1X02_NO_SILK          Standard 2-pin 0.1" header. Use with                                                  
+JP7                              M021X02_NO_SILK     1X02_NO_SILK          Standard 2-pin 0.1" header. Use with                                                  
+JP8          POWER_JACKPTH_LOCK  POWER_JACKPTH_LOCK  POWER_JACK_PTH_LOCK   Power Jack                                                        CONN-08197 PRT-00119
+L1           10uH                L-EUPIS2816         PIS2816               INDUCTOR, European symbol                                                             
+ON_BOARD_PWR                     JP1Q                JP1                   JUMPER                                                                                
+PWR                              LEDCHIP-LED0805     CHIP-LED0805          LED                                                                                   
+PWR1                             LEDCHIP-LED0805     CHIP-LED0805          LED                                                                                   
+R2           10k                 R-EU_R0805          R0805                 RESISTOR, European symbol                                                             
+R3           1K                  R-EU_R0805          R0805                 RESISTOR, European symbol                                                             
+R4           100k                R-EU_R0805          R0805                 RESISTOR, European symbol                                                             
+R5           1k                  R-EU_R0805          R0805                 RESISTOR, European symbol                                                             
+R7           6.8k                R-EU_R0805          R0805                 RESISTOR, European symbol                                                             
+R9           44.2k 1%            R-EU_R0805          R0805                 RESISTOR, European symbol                                                             
+R10          10k 1%              R-EU_R0805          R0805                 RESISTOR, European symbol                                                             
+R12          1K                  R-EU_R0805          R0805                 RESISTOR, European symbol                                                             
+R13          10                  R-EU_R0805          R0805                 RESISTOR, European symbol                                                             
+R18          10k                 R-EU_R0805          R0805                 RESISTOR, European symbol                                                             
+R19          10k                 R-EU_R0805          R0805                 RESISTOR, European symbol                                                             
+R26          10                  R-EU_R0805          R0805                 RESISTOR, European symbol                                                             
+RN1          1k                  4R-NEXBN8V          EXBN8V                Array Chip Resistor                          unknown    unknown                       
+RN2          1k                  4R-NEXBN8V          EXBN8V                Array Chip Resistor                          unknown    unknown                       
+RX_LED                           LEDCHIP-LED0805     CHIP-LED0805          LED                                                                                   
+S2           DTSM-6              DTSM-6              DTSM-6                                                                                                      
+SER1                             3PIN-HEADER         3PIN-HEADER           PIN HEADER                                                                            
+SER2                             3PIN-HEADER         3PIN-HEADER           PIN HEADER                                                                            
+SJ1          SOLDERJUMPERTRACE   SOLDERJUMPERTRACE   SJ_2S-TRACE           Solder Jumper                                                                         
+SJ2          SOLDERJUMPERTRACE   SOLDERJUMPERTRACE   SJ_2S-TRACE           Solder Jumper                                                                         
+SJ3          SOLDERJUMPERTRACE   SOLDERJUMPERTRACE   SJ_2S-TRACE           Solder Jumper                                                                         
+SJ4          SOLDERJUMPERTRACE   SOLDERJUMPERTRACE   SJ_2S-TRACE           Solder Jumper                                                                         
+SJ5          SOLDERJUMPERNO      SOLDERJUMPERNO      SJ_2S-NO              Solder Jumper                                                                         
+SJ6          SOLDERJUMPERNO      SOLDERJUMPERNO      SJ_2S-NO              Solder Jumper                                                                         
+SJ7          SOLDERJUMPERTRACE   SOLDERJUMPERTRACE   SJ_2S-TRACE           Solder Jumper                                                                         
+SJ8          SOLDERJUMPERTRACE   SOLDERJUMPERTRACE   SJ_2S-TRACE           Solder Jumper                                                                         
+SJ9          SOLDERJUMPERNO      SOLDERJUMPERNO      SJ_2S-NO              Solder Jumper                                                                         
+TFT          TFT01-2.4           TFT01-2.4           TFT01-2.4                                                                                                   
+TX_LED                           LEDCHIP-LED0805     CHIP-LED0805          LED                                                                                   
+U$1          A4988BREAKOUT       A4988BREAKOUT       A4988BREAKOUT                                                                                               
+U$6          A4988BREAKOUT       A4988BREAKOUT       A4988BREAKOUT                                                                                               
+U$7          A4988BREAKOUT       A4988BREAKOUT       A4988BREAKOUT                                                                                               
+U1           ARDUINO_MEGA_SHIELD ARDUINO_MEGA_SHIELD ARDUINO_MEGA_SHIELD                                                                                         
+X-MAX                            3PIN-HEADER         3PIN-HEADER           PIN HEADER                                                                            
+X-MIN                            3PIN-HEADER         3PIN-HEADER           PIN HEADER                                                                            
+Y-MAX                            3PIN-HEADER         3PIN-HEADER           PIN HEADER                                                                            
+Y-MIN                            3PIN-HEADER         3PIN-HEADER           PIN HEADER                                                                            
